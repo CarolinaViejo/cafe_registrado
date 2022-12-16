@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="=es">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="shortcut icon" href="img/logo_150_px.png" type="image/x-icon">
+		<title>Café Registrado</title>
+		<link rel="stylesheet" href="estilos.css">
+		<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+		<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;500;600&family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+	</head>
+	<body>
+		<nav>
+			<div class="dvFlex">
+				<a href="#"><img src="img/logo.png" alt="Café Registrado" id="logo"></a>
+			<ul class="menu">
+				<li><a href="#">INICIO</a></li>
+				<li><a href="#sectionNosotros">NOSOTROS</a></li>
+				<li><a href="#sectionDestacados">DESTACADOS</a></li>
+				<li><a href="#sectionProductos">PRODUCTOS</a></li>
+				<li><a href="#sectionPromociones">PROMOCIONES</a></li>
+				<li><a href="#sectionContacto">CONTACTO</a></li>
+				<li><a href="#"><img src="img/anadir-al-carrito.png" alt="Carrito"></a></li>
+			</ul>
+			</div>
+		</nav>
+
+		<figure class="dvSlider">
+            <div id="myCarousel" class="carousel">
+				<div class="carousel__slide">
+					<img data-lazy-src="img/slider_1.jpg" alt="Imagen 1">
+				</div>
+				<div class="carousel__slide">
+					<img data-lazy-src="img/slider_2.jpg" alt="Imagen 2">
+				</div>
+				<div class="carousel__slide">
+					<img data-lazy-src="img/slider_3.jpg" alt="Imagen 3">
+				</div>
+				<div class="carousel__slide">
+					<img data-lazy-src="img/slider_4.jpg" alt="Imagen 4">
+				</div>
+		</figure>
+
+		<header>
+			<div class="registrado">
+				<h1>Querés tomar un buen café?</h1>
+				
+				<p>En nuestras tiendas te esperan nuestros baristas capacitados para ofrecerte una bebida muy especial.<br>
+				El ambiente cálido y los detalles de nuestros productos elaborados artesanalmente <br>hacen que la experiencia sea única
+				e inigualable.
+				</p>
+				<a class="botonVer" href="#productos">VER PRODUCTOS</a>
+			</div>
+		</header>
+
+		<section id="sectionNosotros">
+			<div class="contenedor" id="container">
+				<div class="titulo">
+					<h2 class="tituloNosotros">SOBRE NOSOTROS</h2>
+					<p class="historia">
+					Somos un grupo de Baristas, maestros tostadores que trabajamos para garantizar la máxima calidad en todos los momentos del <strong>café </strong>(crudo, tostado y en la bebida).
+					Buscamos incansablemente la calidad y excelencia en lo que hacemos, cada proceso, cada pequeño detalle, lo hacemos pensando en ofrecer solo lo mejor y dejar en aquellos que nos visitan, nuestra impronta personal, registrada.					
+					</p>
+				</div>
+				<div class="imgcafe">
+					<img class="foto" src="img/tazas_variedades.jpg" alt="historia"></div>
+			</div>
+		</section>
+
+		<section class="contenedor" id="sectionDestacados">
+			<h2>PRODUCTOS DESTACADOS</h2>
+			<div class="destacadosCafes">
+				<article id="tradicional" class="card">
+					<img src="img/tradicional.png" alt="tradicional">
+					<h3>TRADICIONAL</h3>
+					<p>Obtenido a partir de los granos tostados y molidos de los frutos de la planta del cafeto; es altamente estimulante por su contenido de cafeína, aroma intenso pero en su justa medida. </p>
+					<a class="btnTradicional" href="#">Más información</a>
+				</article>
+	
+				<article id="frapuccino" class="card">
+					<img src="img/frapuccino.png" alt="frapuccino">
+					<h3>FRAPUCCINO</h3>
+					<p>
+						Lo realizamos a partir de café tostado mezclado con hielo y coronado con crema batida. 
+						Se siente en cada trago la frescura y el sabor inconfundible del mejor café seleccionado.						
+					</p>
+					<a class="btnFrapuccino" href="#">Más información</a>
+				</article>
+	
+				<article id="creamy" class="card">
+					<img src="img/creamy.png" alt="creamy">
+					<h3>CREAMY</h3>
+					<p>
+						El contraste del sabor aquí es impecable. La crema chantilly es bastante dulce, y esto se equilibra muy bien con el natural sabor del café.
+						Su textura cremosa da una sensación única y suave.						
+					</p>
+					<a class="btnCreamy" href="#">Más información</a>
+				</article>
+			</div>
+	</section>
+
+	<section class="galeriaProductos" id="sectionProductos">
+		<h2>CONOCE NUESTROS PRODUCTOS</h2>
+		<div class="productos">
+			<a href="img/espresso_roast.jpg" data-fancybox="gallery" data-caption="CAFÉ TOSTADO">
+				<img src="img/minis/ESPRESSO_ROAST.png" alt="cafe-tostado">
+			</a>
+	
+			<a href="img/cafe_granulado.jpg" data-fancybox="gallery" data-caption="CAFÉ GRANULADO">
+				<img src="img/minis/GRANULADO.png" alt="cafe-granulado">
+			</a>
+	
+			<a href="img/mug_reutilizable.jpg" data-fancybox="gallery" data-caption="MUG REUTILIZABLE">
+				<img src="img/minis/MUG.png" alt="Mug Reutilizable">
+			</a>
+	
+			<a href="img/colombiano.jpg" data-fancybox="gallery" data-caption="CAFÉ COLOMBIANO">
+				<img src="img/minis/COLOMBIANO_MINI.png" alt="cafe-colombiano">
+			</a>
+	
+			<a href="img/brasil.jpg" data-fancybox="gallery" data-caption="CAFÉ BRASILERO">
+				<img src="img/minis/BRASIL_MINI.png" alt="cafe-brasilero">
+			</a>
+	
+			<a href="img/mexicano.jpg" data-fancybox="gallery" data-caption="CAFÉ MEXICANO">
+				<img src="img/minis/MEXICO_MINI.png" alt="cafe-mexicano">
+			</a>
+		</div>
+	</section>
+
+	<section class="contenedor-ofertas" id="sectionPromociones">
+		<h2>PROMOCIONES</h2>
+		<div class="promos">
+			<article id="combo1" class="card">
+				<img src="img/set_caja.png" alt="Set Mug y Café Tostado">
+				<h3>MUG + CAFE TOSTADO
+				</h3>
+				<p>$2500</p>
+				<a class="btnComprar" href="#">COMPRAR</a>
+			</article>
+	
+			<article id="combo2" class="card">
+				<img src="img/set_tazas.png" alt="Set de Tazas" class="tasas">
+				<h3>SET DE TAZAS</h3>
+				<p>
+				$4000
+				</p>
+				<a class="btnComprarTasa" href="#">COMPRAR</a>
+			</article>
+	
+			<article id="combo3" class="card">
+				<img src="img/arabica.png" alt="Arábica" class="arabica">
+				<h3>CAFÉ ARÁBICA</h3>
+				<p>
+				$2000
+				</p>
+				<a class="btnComprar" href="#">COMPRAR</a>
+			</article>
+		</div>
+	
+		<div><a class="btnVerPromos" href="#">VER MÁS COMBOS</a></div>
+	</section>
+
+	<section class="form-contenedor" id="sectionContacto">
+		<div class="formulario">
+			<h2>CONTÁCTANOS</h2>
+			<form action="consulta" method="post">
+				<div class="espaciado">
+					<label for="nombre-y-apellido">Nombre y apellido:</label>
+					<input type="text" name="nombre-y-apellido" id="nombre-y-apellido" required placeholder="Ingresa tu nombre y apellido*">
+				</div>
+				<div class="espaciado">
+					<label for="correo-electronico">Correo electrónico:</label>
+					<input type="email" name="correo-electronico" id="correo-electronico" required placeholder="Ingresa tu correo electrónico*">
+				</div>
+				<div class="espaciado">
+					<label for="escribe-tu-consulta">Escribe tu consulta:</label>
+					<textarea name="escribe-tu-consulta" id="escribe-tu-consulta" cols="30" rows="10" placeholder="Ingresa tu consulta..."></textarea>
+				</div>
+				<div class="botones">
+					<button type="submit" class="enviar">Enviar</button>
+					<button type="reset" class="borrar">Borrar</button>
+				</div>
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<div class="end">
+			<p>Diseñado por Carolina Viejo © Copyright Café Registrado - 2022. Todos los derechos reservados.</p>
+			<ul class="footer">
+				<li><a href="https://www.instagram.com" target="new" title="Instagram"><img src="img/instagram_white.png" alt="instagram"></a></li>
+				<li><a href="https://twitter.com" target="new" title="Twitter"><img src="img/twitter_white.png" alt="twitter"></a></li>
+				<li><a href="https://www.facebook.com/" target="new" title="Youtube"><img src="img/facebook_white.png" alt="facebook"></a></li>
+			</ul>
+		</div>
+	</footer>
+<!-- JQUERY -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script>
+const myCarousel = new Carousel(document.querySelector(".carousel"), {
+slides: [
+    {
+    html: "1",
+    },
+    {
+    html: "2",
+    },
+    {
+    html: "3",
+    },
+],
+});
+</script>
+<!-- FIN JQUERY -->
+	</body>
+</html>
